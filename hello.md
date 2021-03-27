@@ -1,3 +1,4 @@
-hello git
+hello, git
 *prvni odrazka
 *druha odrazka
+*treti odrazka
