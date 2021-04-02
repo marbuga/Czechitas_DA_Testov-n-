@@ -1,0 +1,135 @@
+body {
+    margin:5%;
+    padding: 10px;
+    background-image: linear-gradient(white,grey);
+    font-size: 15px;
+    line-height: 1.6;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    
+   
+}
+h1{
+    margin: 0;
+}
+h2{
+    position: relative;
+    font-size: 22px;
+    padding:20px;
+    margin:0;
+   }
+h2::after{
+    border: 3px solid rgb(164, 192, 237);
+    content: "";
+    width:80px;
+    position: absolute;
+    top:70px;
+    left: -40px;
+    
+}
+
+p{
+    margin-top: 0;
+}
+
+.titulek {
+    text-align: center;
+    font-size: 42px;
+    padding-top:70px;
+    color: #3C4B4B;
+}
+.autor{
+    color: white;
+    text-align: center;
+    padding:15px;
+    font-style: italic;
+    position: relative;
+    
+}
+ 
+.hlavicka{
+    flex: 1 1 100%;
+    background-image: url(https://www.webchoiceonline.com.au/wp-content/uploads/2014/04/best-browsers.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 25px;
+    height: 225px;
+      
+}
+.obsah{
+    flex:  1 1 100%;
+    background-color: white;
+}
+.menu{
+    flex: 1 1 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 40px;
+}
+.menu li{
+    flex: 1 1 100%;
+    border-bottom: 0.1px solid lightgray;
+    list-style: none;
+    text-align: center;
+    padding: 10px;
+}
+.menu a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: grey;
+    font-size: 12px;
+   
+}
+
+.uvod,.webtools,.format,.postman{
+    flex: 1 1 100%;
+    padding-left: 40px;
+    padding-right: 40px;
+      
+}
+.webtools h2{
+    color: #21294D;
+}
+.format h2{
+    color: 	#131621;
+}
+.postman h2{
+    color: #20243C;
+}
+.text{
+    padding-top:20px;
+}
+
+.minisekce{
+    display: flex;
+}
+.postman_logo,.xml_logo{
+    flex: 1 1 100%;
+    max-width: 150px;
+    max-height: 150px;
+    padding:10px;
+}
+.webtools_logo {
+    flex: 1 1 100%;
+    max-width: 200px;
+    max-height: 150px;
+    padding:10px;
+}
+
+
+.paticka{
+    flex: 1 1 100%;
+    background-image: linear-gradient(grey,black);
+    height: 60px;
+}
+.paticka p, .paticka a {
+    color: black;
+    text-align: center;
+    padding-top:5px;
+    margin:0;
+    font-size: 13px;
+}
+a:hover{
+    color:blue; }
