@@ -8,8 +8,6 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     position: relative;
-    
-   
 }
 h1{
     margin: 0;
@@ -28,9 +26,7 @@ h2::after{
     position: absolute;
     top:70px;
     left: -40px;
-    
 }
-
 p{
     margin-top: 0;
 }
@@ -47,7 +43,6 @@ p{
     padding:15px;
     font-style: italic;
     position: relative;
-    
 }
  
 .hlavicka{
@@ -57,7 +52,6 @@ p{
     background-size: cover;
     padding: 25px;
     height: 225px;
-      
 }
 .obsah{
     flex:  1 1 100%;
@@ -81,14 +75,12 @@ p{
     text-transform: uppercase;
     color: grey;
     font-size: 12px;
-   
 }
 
 .uvod,.webtools,.format,.postman{
     flex: 1 1 100%;
     padding-left: 40px;
     padding-right: 40px;
-      
 }
 .webtools h2{
     color: #21294D;
@@ -121,38 +113,21 @@ p{
     max-height: 150px;
     padding:10px;
 }
-.webtools_logo {
+
+.postman_logo, .json_logo, .webtools_logo{
     flex: 1 1 100%;
     max-width: 200px;
     max-height: 150px;
     padding:10px;
-    
     padding-left:0;
 }
-.postman_logo{
-    flex: 1 1 100%;
-    max-width: 200px;
-    max-height: 150px;
-    padding:10px;
-    
-    padding-left:0;
-}
-.json_logo{
-    flex: 1 1 100%;
-    max-width: 200px;
-    max-height: 150px;
-    padding:10px;
-    
-    padding-left:0;
-}
+
 .images{
     flex: 1 1 100%;
     display:flex;
     flex-direction: column;
     justify-content: space-around;
-    
 }
-
 
 .paticka{
     flex: 1 1 100%;
